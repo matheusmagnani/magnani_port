@@ -2,7 +2,7 @@
 window.addEventListener('scroll', onScroll)
 onScroll()
 
-function onScroll() {
+function onScroll(){
     
     if(scrollY > 0){
         const nav = document.getElementById("navigation")
